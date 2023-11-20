@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+nav {
+  background: goldenrod;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 2em;
+  margin: 2%;
+  text-decoration: none;
+}
