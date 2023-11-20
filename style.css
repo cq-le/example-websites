@@ -1,0 +1,24 @@
+:root {
+  --primary-color: rgb(190,245,255);
+  --opposite-color: rgb(255,245,190);
+}
+
+body {
+  height: 100svh;
+  width: 100svw;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+button:nth-child(odd) {
+  background-color: var(--opposite-color);
+}
