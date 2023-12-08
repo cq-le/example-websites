@@ -8,12 +8,13 @@ body {
   margin: 0px;
   height: 100svh;
   align-items: center;
+  justify-content: center;
 }
 
 .image-container {
   display: flex;
   height: 80vh;
-  width: 50vw;
+  width: 80vw;
   justify-content: center;
   overflow-y: scroll;
   scrollbar-width: none;
