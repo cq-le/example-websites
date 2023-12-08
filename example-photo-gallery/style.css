@@ -11,10 +11,10 @@ body {
 }
 
 .image-container {
+  display: flex;
   height: 80vh;
   width: 50vw;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  justify-content: center;
   overflow-y: scroll;
   scrollbar-width: none;
 }
