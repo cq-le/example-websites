@@ -1,0 +1,53 @@
+:root {
+  --background-color: white;
+}
+
+body {
+  display: flex;
+  background-color: var(--background-color);
+  margin: 0px;
+  height: 100svh;
+  align-items: center;
+}
+
+.image-container {
+  height: 80vh;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.image-container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.image-container > ul > li {
+  height: 30vh;
+  border: 2px solid var(--background-color);
+  flex-grow: 1;
+  transition: 0.2s;
+  overflow: hidden;
+}
+
+.image-container > ul > li > img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transform: scale(1.0);
+  transition: 0.2s;
+}
+
+.image-container > ul > li > img:hover {
+  transform: scale(1.2);
+}
+
+.image-container > ul > li:last-child {
+  flex-grow: 10;
+}
