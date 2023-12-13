@@ -19,6 +19,6 @@ button {
   background-color: var(--primary-color);
 }
 
-button:nth-child(odd) {
+a:hover {
   background-color: var(--opposite-color);
 }
